@@ -10,3 +10,4 @@ wait = WebDriverWait(driver, 20)
 close_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".modal-footer > p:nth-child(1)")))
 
 close_button.click()
+driver.quit()
